@@ -1,0 +1,134 @@
+div.remember {
+	margin-top: 7px;
+	color: #969696;
+}
+
+div.remember label {
+	padding-top: 14px;
+	padding-left: 3px;
+}
+
+div.forgot {
+	margin-top: 7px;
+	color: #dadada;
+}
+
+footer {
+    background: url("../img/feature-gradient.png") no-repeat scroll center 100% white;
+    color: #B7B7B7;
+    font-size: 12px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer a {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+table.signup td {
+	padding: 10px;
+}
+
+table.signup .alert {
+	margin-bottom: 0;
+    margin-top: 3px;
+}
+
+table.perms select {
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+table.perms label {
+	margin-right: 10px;
+}
+
+div.main-container {
+	min-height: 450px;
+}
+
+.user-form {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+/*body {
+	background: url('../img/bg.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color:#333;
+}*/
+
+.chat
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.chat li
+{
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li.left .chat-body
+{
+	margin-left: 60px;
+}
+
+.chat li.right .chat-body
+{
+	margin-right: 60px;
+}
+
+.chat li .chat-body p
+{
+	margin: 0;
+	color: #c8f1f9;
+}
+
+.panel .slidedown .glyphicon, .chat .glyphicon
+{
+	margin-right: 5px;
+}
+
+.panel-body
+{
+	overflow-y: scroll;
+	height: 250px;
+}
+
+.chart-body
+{
+	overflow-y: scroll;
+	height: 150px;
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+.border-less td, .border-less .th
+{
+	border: none;
+}
